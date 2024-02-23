@@ -1,5 +1,5 @@
 {% set name = "python-jsonpath" %}
-{% set version = "0.10.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_jsonpath-{{ version }}.tar.gz
-  sha256: 15704ab755883acb6ec85c63b687b2a8cff1902cd293d4509f9e673423b431ee
+  sha256: 17f48bc766ad362d0613521f50f5568dd4c46687362582035a5bf4e19f30d71d
 
 build:
   noarch: python
