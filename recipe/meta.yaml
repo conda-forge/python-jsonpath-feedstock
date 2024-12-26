@@ -1,5 +1,6 @@
 {% set name = "python-jsonpath" %}
 {% set version = "1.2.2" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -12,15 +13,15 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -29,6 +30,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/jg-rp/python-jsonpath
