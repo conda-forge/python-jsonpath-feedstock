@@ -1,5 +1,6 @@
 {% set name = "python-jsonpath" %}
 {% set version = "1.2.2" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
