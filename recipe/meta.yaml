@@ -1,5 +1,5 @@
 {% set name = "python-jsonpath" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/python_jsonpath-{{ version }}.tar.gz
-  sha256: 32a84ebb2dc0ec1b42a6e165b0f9174aef8310bad29154ad9aee31ac37cca18f
+  sha256: 41abb6660b3ee54d5ae77e4b0e901049fb1662ad90de241f038df47edc75ee60
 
 build:
   noarch: python
