@@ -1,5 +1,5 @@
 {% set name = "python-jsonpath" %}
-{% set version = "2.2.2" %}
+{% set version = "2.3.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/python_jsonpath-{{ version }}.tar.gz
-  sha256: bb1a66e82b8c586fcdd53a1df46df92e1cd5e4164aa57f315b03afa76dd14947
+  sha256: d141741899950da3183415e66d4d5037d5423e307845cbd0a814605d324749f7
 
 build:
   noarch: python
